@@ -1,0 +1,165 @@
+/*------first page------*/
+.start_page{
+	text-align: center;
+	background-image: url(../images/backgtound_home_apliances.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+/*name company*/
+.name_company{
+	padding-top: 20%;
+	font-family: 'Arial';
+    font-weight: bold;
+    font-size: 40pt;
+    color:#1299DB;
+}
+
+.mega{
+	color:#FFF;
+	margin: 0;
+}
+
+.service{
+	
+    color: #1299DB;
+    text-shadow: 0px 4px 0px #06628E;
+}
+
+/*slogan company*/
+.slogan{
+	font-family: 'Arial';
+    color: white;
+    font-size: 15pt;
+    letter-spacing: 2px;
+}
+/*button learn more*/
+.button{
+	padding: 8%;
+
+}
+
+.a_about_us{
+	font-family: 'Arial';
+    font-size: 15pt;
+    padding: 20px;
+    color: white;
+    background-color: #1299DB;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.a_about_us:hover{
+	background: #06628E;
+
+}
+
+/*------page abou us------*/
+
+.about_us{
+	background-color: #f6f6f6;
+}
+/*subtittle*/
+.subtittle_about_us{
+	font-family: "Open Sans",sans-serif;
+    color: grey;
+    font-size: 20pt;
+    font-weight: bold;
+    width: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+/*line*/
+.line_under_name{
+    width: 50px;
+    margin: 0 auto;
+    border-bottom: 3px solid #1299DB;
+}
+/*content*/
+.row_about_us{
+	display: flex;
+	margin-right: 30px;
+	margin-left: 30px;
+	color: #838583;
+	font-family: "Open Sans",sans-serif;
+}
+
+/*image*/
+.image_about_us{
+	margin-top: 35px;
+}
+/*who we are*/
+.subtittle_who_we_are{
+	font-size: 15pt;
+	font-family: "Open Sans",sans-serif;
+	font-weight: bold;
+	color: grey;
+}
+
+.text_who_we_are{
+	width: 80%;
+	margin: 20px;
+}
+
+
+/*what we do*/
+.text_what_we_do{
+	width: 80%;
+	margin: 20px;
+}
+
+/*list*/
+.list_features{
+    color: #838583;
+    list-style-type: none;
+    font-size: 11.5pt;
+
+}
+
+.list_features::before {
+    content: "✓";
+    font-weight: 600;
+    padding-right: 10px;
+    color: #1299DB;
+
+}
+
+ul{
+	padding-left: 0;
+}
+
+/*------page services------*/
+.services{
+	text-align: center;
+	background-image: url(../images/background_fruits.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.subtittle_services{
+	font-family: "Open Sans",sans-serif;
+    color: #FFF;
+    font-size: 20pt;
+    font-weight: bold;
+    width: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.row_services{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	color: #000;
+	font-family: "Open Sans",sans-serif;
+}
+
+.service_col{
+	width: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
