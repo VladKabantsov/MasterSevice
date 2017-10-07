@@ -58,17 +58,20 @@
 /*------page abou us------*/
 
 .about_us{
+    padding-top: 10%;
+    padding-bottom: 10%;
 	background-color: #f6f6f6;
 }
 /*subtittle*/
 .subtittle_about_us{
 	font-family: "Open Sans",sans-serif;
-    color: grey;
+    color: #FFF;
     font-size: 20pt;
     font-weight: bold;
     width: auto;
     text-align: center;
-    padding-top: 10%;
+    
+
 }
 /*line*/
 .line_under_name{
@@ -166,7 +169,10 @@ ul{
 
 /*-----page repairs------*/
 
-
+.repairs{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 
 /*images*/
 .hover08 figure img {
@@ -300,12 +306,19 @@ figure:hover+span {
 
 /*-----page reviews-----*/
 
+.reviews{
+    background-image: url(../images/dovolnye-sotrudniki1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 10%;
+}
 
 .text_reviews{
     display: flex;
     justify-content: center;
     font-family: "Open Sans",sans-serif;
-    color: #000;
+    color: #FFF;
     font-size: 15pt;
 }
 
@@ -323,3 +336,45 @@ figure:hover+span {
     color: #1299DB;
 
 }
+
+
+/*-----page contact us-----*/
+.contact_information{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.contact_information div{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contacts{
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+.subtittle_contact{
+    font-family: "Open Sans",sans-serif;
+    color: grey;
+    font-size: 20pt;
+    font-weight: bold;
+    width: auto;
+    text-align: center;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.text_under_icon{
+    font-family: "Open Sans",sans-serif;
+    color: grey;
+    font-size: 10pt;
+}
+
+
