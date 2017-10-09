@@ -8,39 +8,41 @@
 
     <link href="css/style.css" rel="stylesheet"> 
     <link href="css/contact_form.css" rel="stylesheet">  
-
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
   </head>
   <body>
-        
+    <div class="container"> 
       <!-- Start page -->
       <div class="start_page">
           <div class="row">
-            <div class="col-md-12 name_company"> <h1 class="mega">Mega <span class="service">Service</span></h1></div>
+            <div class="col-md-12 col-sm-12 name_company"> <h1 class="mega">Mega <span class="service">Service</span></h1></div>
           </div>
           <div class="row">
-            <div class="col-md-12 slogan">Качество - это про нас</div>
+            <div class="col-md-12 col-sm-12 slogan">Качество - это про нас</div>
           </div>
           <div class="row">
-            <div class="col-md-12 button"><a class="a_about_us">О НАС</a></div>
+            <div class="col-md-12 col-sm-12 button" id="yakor"><a href="#about_href" class="a_about_us">О НАС</a></div>
           </div>  
       </div>
       <!-- about us page -->
       <div class="about_us">
+        <div id="about_href">
+         </div> 
         <div class="row">
-            <div class="col-md-12 subtittle_contact">О НАС
+
+            <div class="subtittle_contact">О НАС
             </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 line_under_name"></div>
+            
+            <div class="line_under_name"></div>
         </div>
         <div class="wrap_about_us">
           <div class="row row_about_us">
-              <div class="col-md-4 image_about_us"><img src="images/about_us.jpg"></div>
-              <div class="col-md-4 text_who_we_are">
+              <div class="col-md-4 col-sm-12 image_about_us"><img src="images/about_us.jpg"></div>
+              <div class="col-md-4 col-sm-12 text_who_we_are">
                 <p class="subtittle_who_we_are">Кто мы?</p>
                 <p>Компания "Master Service" предоставляет услуги по ремонту бытовой техники и электроники в Полтаве и пригороде с вызовом мастера на дом. Мы производим качественное сервисное обслуживание крупной бытовой техники на дому, всех марок и моделей, как импортного, так и отечественного производства, независимо от сложности поломки</p>
               </div>
-              <div class="col-md-4 text_what_we_do">
+              <div class="col-md-4 col-sm-12 text_what_we_do">
                 <p class="subtittle_who_we_are">Чем занимаемся?</p>
                 <p>Мы ремонтируем:
                   <ul>
@@ -89,11 +91,10 @@
       <!-- repairs page -->
       <div class="repairs">
         <div class="row">
-          <div class="col-md-12 subtittle_contact">РЕМОНТ
+          <div class="subtittle_contact">РЕМОНТ
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 line_under_name"></div>
+        
+          <div class="line_under_name"></div>
         </div>
                 <div class="row">
                     
@@ -129,96 +130,94 @@
                     </div>
                   </div>
         </div>
-      </div> 
+      
       <!-- reviews page -->
-      <div class="reviews">
-        <div class="row">
-          <div class="col-md-12 subtittle_about_us">ОТЗЫВЫ
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 line_under_name"></div>
-        </div>
-        <div class="row text_reviews">
-            <div class="col-md-4 comment">
-              <p class="text_comm">
-                Спасибо большое, всё сделали очень быстро и хорошо
-              </p>
-              <p>
-                <strong>Мария Сорокина</strong>
-              </p>
+            <div class="reviews">
+              <div class="row">
+                <div class="subtittle_about_us">ОТЗЫВЫ
+                </div>
+              
+                <div class="line_under_name"></div>
+              </div>
+              <div class="row text_reviews">
+                  <div class="col-md-4 comment">
+                    <p class="text_comm">
+                      Спасибо большое, всё сделали очень быстро и хорошо
+                    </p>
+                    <p>
+                      <strong>Мария Сорокина</strong>
+                    </p>
+                  </div>
+                  <div class="col-md-4 comment">
+                    <p class="text_comm">
+                      Спасибо большое, всё сделали очень быстро и хорошо
+                    </p>
+                    <p>
+                      <strong>Мария Сорокина</strong>
+                    </p>
+                  </div>
+                  <div class="col-md-4 comment">
+                    <p class="text_comm">
+                      Спасибо большое, всё сделали очень быстро и хорошо
+                    </p>
+                    <p>
+                      <strong>Мария Сорокина</strong>
+                    </p>
+                  </div>
+              </div>
+              
             </div>
-            <div class="col-md-4 comment">
-              <p class="text_comm">
-                Спасибо большое, всё сделали очень быстро и хорошо
-              </p>
-              <p>
-                <strong>Мария Сорокина</strong>
-              </p>
-            </div>
-            <div class="col-md-4 comment">
-              <p class="text_comm">
-                Спасибо большое, всё сделали очень быстро и хорошо
-              </p>
-              <p>
-                <strong>Мария Сорокина</strong>
-              </p>
-            </div>
-        </div>
-        
-      </div>
       <!-- contacts page -->
-      <div class="contacts">
-        <div class="row">
-          <div class="col-md-12 subtittle_contact">КОНТАКТЫ
+        <div class="contacts">
+                <div class="row">
+                  <div class="subtittle_contact">КОНТАКТЫ
+                  </div>
+                
+                  <div class="line_under_name"></div>
+                </div>
+                <div class="row contact_information">
+                    <div class="col-md-4 contact_location">
+                      <img src="images/loacation.png" alt="icon" class="icon">
+                      <p class="text_under_icon">4321 California St,
+                      San Francisco, CA 12345</p>
+                    </div>
+                    <div class="col-md-4 contact_email">
+                      <img src="images/email.png" alt="icon" class="icon">
+                      <p class="text_under_icon">4info@company.com</p>
+                    </div>
+                    <div class="col-md-4 contact_numbers">
+                      <img src="images/phone.png" alt="icon" class="icon">
+                      <p class="text_under_icon">+1 123 456 1234</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="w">
+
+                      <form id="contactform" name="contact" method="post" action="#">
+                       
+                        <div class="row">
+                          
+                          <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="name" required>
+                        </div>
+                        <div class="row">               
+                          <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="address@mail.ru" required>
+                        </div>
+              
+                        <div class="row">
+                          
+                          <textarea name="message" id="message" class="txtarea" tabindex="4" placeholder="Text message" required></textarea>
+                        </div>
+                        
+                        <div class="center">
+                          <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить">
+                        </div>
+                      </form>
+                    </div>
+                </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 line_under_name"></div>
-        </div>
-        <div class="row contact_information">
-            <div class="col-md-4 contact_location">
-              <img src="images/loacation.png" alt="icon" class="icon">
-              <p class="text_under_icon">4321 California St,
-              San Francisco, CA 12345</p>
-            </div>
-            <div class="col-md-4 contact_email">
-              <img src="images/email.png" alt="icon" class="icon">
-              <p class="text_under_icon">4info@company.com</p>
-            </div>
-            <div class="col-md-4 contact_numbers">
-              <img src="images/phone.png" alt="icon" class="icon">
-              <p class="text_under_icon">+1 123 456 1234</p>
-            </div>
-        </div>
-        <div class="row">
-            <div id="w">
-
-              <form id="contactform" name="contact" method="post" action="#">
-               
-                <div class="row">
-                  
-                  <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="name" required>
-                </div>
-                <div class="row">               
-                  <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="address@mail.ru" required>
-                </div>
-      
-                <div class="row">
-                  
-                  <textarea name="message" id="message" class="txtarea" tabindex="4" placeholder="Text message" required></textarea>
-                </div>
-                
-                <div class="center">
-                  <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить">
-                </div>
-              </form>
-            </div>
-        </div>
-    
-      </div>
-      
       <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
       <script src="js/common.js"></script>
+      <script src="js/index.js"></script>
   </body>
 </html>

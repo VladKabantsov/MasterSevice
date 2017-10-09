@@ -11,17 +11,22 @@
 	padding-top: 20%;
 	font-family: 'Arial';
     font-weight: bold;
-    font-size: 40pt;
+    
     color:#1299DB;
 }
 
 .mega{
 	color:#FFF;
 	margin: 0;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 60pt;
 }
 
 .service{
-	
+	font-family: 'Arial';
+    font-weight: bold;
+    font-size: 60pt;
     color: #1299DB;
     text-shadow: 0px 4px 0px #06628E;
 }
@@ -50,9 +55,10 @@
     text-decoration: none;
 }
 
-.a_about_us:hover{
+.a_about_us:hover, .a_about_us:focus, .a_about_us:active, .a_about_us:visited{
 	background: #06628E;
-
+    text-decoration: none;
+    color: #FFF;
 }
 
 /*------page abou us------*/
@@ -98,6 +104,7 @@
 /*image*/
 .image_about_us{
 	margin-top: 35px;
+
 }
 /*who we are*/
 .subtittle_who_we_are{
@@ -108,7 +115,7 @@
 }
 
 .text_who_we_are{
-	width: 400px;
+	max-width: 400px;
 	margin: 20px;
 }
 
