@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MasterService</title>
 
-    <link href="css/style.css" rel="stylesheet"> 
+     
     <link href="css/contact_form.css" rel="stylesheet">  
     <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container"> 
@@ -37,7 +38,7 @@
         </div>
         <div class="wrap_about_us">
           <div class="row row_about_us">
-              <div class="col-md-4 col-sm-12 image_about_us"><img src="images/about_us.jpg"></div>
+              <div class="col-md-4 col-sm-12 image_about_us"><img src="images/about_us.jpg" class="img_employee"></div>
               <div class="col-md-4 col-sm-12 text_who_we_are">
                 <p class="subtittle_who_we_are">Кто мы?</p>
                 <p>Компания "Master Service" предоставляет услуги по ремонту бытовой техники и электроники в Полтаве и пригороде с вызовом мастера на дом. Мы производим качественное сервисное обслуживание крупной бытовой техники на дому, всех марок и моделей, как импортного, так и отечественного производства, независимо от сложности поломки</p>
@@ -68,24 +69,53 @@
                 <div class="line_under_name"></div>
             </div>
         </div>
+        <div class="for_sm_size">
+          <div class="row_my">
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+          </div>
+          <div class="row_my">
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+          </div>
+          <div class="row_my">
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+          </div>
+          <div class="row_my">
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+            <div class="block_my">Вызов мастера + диагностика неисправности (без ремонта)
+            </div>
+          </div>    
+        </div>
+        <div class="for_md">
         <div class="row row_services">
-            <div class="col-md-3 service_col">Вызов мастера + диагностика неисправности (без ремонта)
+            <div class="col-md-3 col-sm-6 service_col">Вызов мастера + диагностика неисправности (без ремонта)
             </div>
-            <div class="col-md-3 service_col">Вызов мастера и диагностика неисправности (с ремонтом)
+            <div class="col-md-3 col-sm-6 service_col">Вызов мастера и диагностика неисправности (с ремонтом)
             </div>
-            <div class="col-md-3 service_col">Замена терморегулятора, термостата, пускового реле</div>
-            <div class="col-md-3 service_col">Замена электронного датчика
+
+            <div class="col-md-3 col-sm-6 service_col">Замена терморегулятора, термостата, пускового реле</div>
+            <div class="col-md-3 col-sm-6 service_col">Замена электронного датчика
             </div>
         </div>
         <div class="row row_services">
-            <div class="col-md-3 service_col">Заправка холодильника фреоном R12, R134a, R600a
+            <div class="col-md-3 col-sm-6 service_col">Заправка холодильника фреоном R12, R134a, R600a
             </div>
-            <div class="col-md-3 service_col">Устранение утечки в системе и заправка холодильника фреоном
+            <div class="col-md-3 col-sm-6 service_col">Устранение утечки в системе и заправка холодильника фреоном
             </div>
-            <div class="col-md-3 service_col">Ремонт блока управления (электронного модуля)
+            <div class="col-md-3 col-sm-6 service_col">Ремонт блока управления (электронного модуля)
             </div>
-            <div class="col-md-3 service_col">Замена компрессора в холодильнике
+            <div class="col-md-3 col-sm-6 service_col">Замена компрессора в холодильнике
             </div>
+        </div>
         </div>
       </div>
       <!-- repairs page -->
@@ -99,16 +129,16 @@
                 <div class="row">
                     
                     <div class="hover08 column">
-                      <div>
-                        <figure><img src="images/fridge.jpg" /></figure>
+                      <div class="line">
+                        <figure><img src="images/fridge.jpg" class="technic" /></figure>
                         <span>Холодильников</span>
                       </div>
-                      <div>
-                        <figure><img src="images/microwave.jpg" /></figure>
+                      <div class="line">
+                        <figure><img src="images/microwave.jpg" class="technic"/></figure>
                         <span>Микроволновых печей</span>
                       </div>
-                      <div>
-                        <figure><img src="images/condition.jpg" /></figure>
+                      <div class="line">
+                        <figure><img src="images/condition.jpg" class="technic"/></figure>
                         <span>Кондиционеров</span>
                       </div>
                     </div>
@@ -140,7 +170,7 @@
                 <div class="line_under_name"></div>
               </div>
               <div class="row text_reviews">
-                  <div class="col-md-4 comment">
+                  <div class="col-md-4 col-sm-12 comment">
                     <p class="text_comm">
                       Спасибо большое, всё сделали очень быстро и хорошо
                     </p>
@@ -148,7 +178,7 @@
                       <strong>Мария Сорокина</strong>
                     </p>
                   </div>
-                  <div class="col-md-4 comment">
+                  <div class="col-md-4 col-sm-12 comment">
                     <p class="text_comm">
                       Спасибо большое, всё сделали очень быстро и хорошо
                     </p>
@@ -156,7 +186,7 @@
                       <strong>Мария Сорокина</strong>
                     </p>
                   </div>
-                  <div class="col-md-4 comment">
+                  <div class="col-md-4 col-sm-12 comment">
                     <p class="text_comm">
                       Спасибо большое, всё сделали очень быстро и хорошо
                     </p>
@@ -195,15 +225,15 @@
 
                       <form id="contactform" name="contact" method="post" action="#">
                        
-                        <div class="row">
+                        <div class="row_for_form">
                           
                           <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="name" required>
                         </div>
-                        <div class="row">               
+                        <div class="row_for_form">               
                           <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="address@mail.ru" required>
                         </div>
               
-                        <div class="row">
+                        <div class="row_for_form">
                           
                           <textarea name="message" id="message" class="txtarea" tabindex="4" placeholder="Text message" required></textarea>
                         </div>
